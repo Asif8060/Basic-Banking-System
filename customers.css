@@ -1,0 +1,83 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #405fb5!important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: violet!important;
+}
+
+.navbar-brand:hover {
+    color: rgb(180, 125, 180) !important;
+}
+
+.nav-link{
+    color: #f2e9e4 !important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #253078;
+    color: #b3afae !important;
+    border-radius: 20px;
+}
+
+.active {
+    color: rgb(40, 40, 57)!important;
+    background-color: rgb(173, 91, 24);
+    border-radius: 20px;
+}
+/* navbar css ends here  */
+
+.my-info{
+    padding: 2rem 5rem;
+}
+
+.btn-info{
+    padding: 1rem 1.2rem;
+    background-color: plum !important;
+    color: #e01875!important;
+    margin-left: 5px;
+    padding: 0.75rem;
+    transition: all 0.3s;
+    border-radius: 15px;
+}
+
+.btn-info:hover{
+    text-decoration: none;
+    background-color: #8ac9ec !important;
+}
+
+.tb-radius {
+    border-radius: 20px;
+}
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    font-size: small;
+    color: #5087bd;
+}
+
+.linkedin{
+    font-size: small;
+    color: #0077b5;
+}

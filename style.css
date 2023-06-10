@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #07a8e3;
+}
+
+/* navbar css starts here  */
+.bg-light{
+    background-color: #405fb5!important;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.navbar-brand{
+    font-family: 'Sansita Swashed', cursive;
+    font-size: 1.5rem;
+    color: violet!important;
+}
+
+.navbar-brand:hover {
+    color: rgb(180, 125, 180) !important;
+}
+
+.nav-link{
+    color: #f2e9e4 !important;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.nav-link:hover{
+    background-color: #253078;
+    color: #b3afae !important;
+}
+/* navbar css ends here  */
+
+/* here content css starts here  */
+.hero-content{
+    height: 100%;
+    background: linear-gradient(to top left, #3ed8ff, #a8f5ff);
+    color: #ffffff;
+    padding: 3rem;
+    margin-right: 0;
+    margin-bottom: 1vh;
+}
+
+.hero-img{
+    height: 70vh;
+    width: 110%;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 766px) {
+    .hero-img {
+      display: none;
+    }
+}
+
+.get-started{
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    font-size: 162%;
+    background-color: plum;
+    color: #e01875!important;
+    transition: 0.3s;
+}
+
+.get-started:hover{
+    text-decoration: none;
+    background-color: #8ac9ec;
+}
+
+/* footer css starts here */
+footer{
+    background-color:  #f2e9e4;
+}
+
+.social-icons li{
+    list-style: none;
+    display: inline;
+    padding: 0.5rem;
+}
+
+.github{
+    font-size: small;
+    color: #5087bd;
+}
+
+.linkedin{
+    font-size: small;
+    color: #0077b5;
+}
+
+.google{
+    color: #38a5d4;
+}
+/* footer css ends here  */
